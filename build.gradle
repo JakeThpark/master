@@ -1,0 +1,107 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'com.ewerk.gradle.plugins.querydsl' version '1.0.10'
+    id 'java'
+    id 'org.hidetake.ssh' version '2.10.1'
+}
+
+apply from: 'deploy.gradle'
+
+group = 'com.wanpan.app'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation("io.springfox:springfox-swagger2:2.9.2")
+    implementation("io.springfox:springfox-swagger-ui:2.9.2")
+    //querydsl 추가
+    implementation 'com.querydsl:querydsl-jpa'
+//    compile("com.querydsl:querydsl-apt") // querydsl
+
+    // AWS S3
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.11.789'
+
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+    compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.7'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.2.2.RELEASE'
+//    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon
+//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-ribbon', version: '2.2.2.RELEASE'
+    compile 'io.github.openfeign.form:feign-form:3.8.0'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'mysql:mysql-connector-java'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+//querydsl 추가 시작
+def querydslDir = "$buildDir/generated/querydsl"
+
+querydsl {
+    jpa = true
+    querydslSourcesDir = querydslDir
+}
+sourceSets {
+    main.java.srcDir querydslDir
+}
+configurations {
+    querydsl.extendsFrom compileClasspath
+}
+compileQuerydsl {
+    options.annotationProcessorPath = configurations.querydsl
+}
+//querydsl 추가 끝
+
+//
+//def querydslSrcDir = 'src/main/generated'
+//
+//querydsl {
+//    library = "com.querydsl:querydsl-apt"
+//    jpa = true
+//    querydslSourcesDir = querydslSrcDir
+//}
+//
+//sourceSets {
+//    main {
+//        java {
+//            srcDirs = ['src/main/java', querydslSrcDir]
+//        }
+//    }
+//}
+//
+////Gradle 5.0 이상에서 추가된 내용
+//compileQuerydsl{
+//    options.annotationProcessorPath = configurations.querydsl
+//}
+//
+//configurations {
+//    querydsl.extendsFrom compileClasspath
+//}
+
+

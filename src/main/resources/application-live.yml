@@ -1,0 +1,78 @@
+# Spring application properties
+spring:
+  jpa:
+    database: mysql
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        globally_quoted_identifiers_skip_column_definitions: true
+
+  # Data base properties
+  datasource:
+    url: "jdbc:mysql://live-sellist-db.cnxvj4e5nd3y.ap-northeast-2.rds.amazonaws.com:3306/sellist?useSSL=false&zeroDateTimeBehavior=convertToNull&noAccessToProcedureBodies=true&sessionVariables=wait_timeout=600&serverTimezone=Asia/Seoul"
+    username: ""
+    password: ""
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 2
+      idle-timeout: 60000
+      max-lifetime: 300000
+      pool-name: hikari-cp
+
+
+# Engine server properties
+server:
+  port: 8080
+
+
+logging:
+  file.name: sellist-engine
+  level:
+    org.hibernate: INFO
+    org.springframework.web: INFO
+    jdbc:
+      sqltiming: 'off'
+      audit: 'off'
+      connection: 'off'
+      resultset: 'off'
+      resultsettable: 'off'
+      sqlonly: 'off'
+    com.wanpan: INFO
+
+
+#aws:
+#  credential:
+#    access-key: "AKIA2LUXHOXNMRNCTL5A"
+#    secret-key: "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"
+#  region: ap-northeast-2
+#  bucket:
+#    bucket-name: "sellist-thumb"
+#    prefix: "images/origin/"
+
+
+internal:
+  client:
+    url: ""
+
+
+external:
+  reebonz:
+    url: "http://api.reebonz.co.kr/api"
+
+
+security:
+  shop-account.encrypt:
+    password: ""
+    key-path: ""
+    alias: "wanpan-live"
+    keystore-type: "PKCS12"
+    cipher-transformation: "RSA"
+
+
+gorda:
+  client:
+    url: "https://api.gordastyle.com"

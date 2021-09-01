@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+
+    <springProfile name="local">
+        <property name="PROFILE" value="local"/>
+    </springProfile>
+    <springProfile name="dev">
+        <property name="PROFILE" value="dev"/>
+    </springProfile>
+    <springProfile name="live">
+        <property name="PROFILE" value="live"/>
+    </springProfile>
+
+    <appender name="SIZE_AND_TIME_BASED_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>log/${LOG_FILE}.log</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>log/${LOG_FILE}_%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <!-- each file should be at most <maxFileSize> MB, keep <maxHistory> days worth of history, but at most <totalSizeCap> -->
+            <maxHistory>5</maxHistory>
+            <maxFileSize>10MB</maxFileSize>
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="TELEGRAM_DEV" class="com.wanpan.app.config.logger.TelegramAppender">
+        <token>1141288680:AAFnOsiekgSYCFo8ckzoPwN7V-vCe61y5q0</token>
+        <chatId>-402220125</chatId>
+        <Layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</Pattern>
+        </Layout>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+
+    <appender name="TELEGRAM_LIVE" class="com.wanpan.app.config.logger.TelegramAppender">
+        <token>1141288680:AAFnOsiekgSYCFo8ckzoPwN7V-vCe61y5q0</token>
+        <chatId>-377217744</chatId>
+        <Layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</Pattern>
+        </Layout>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+
+    <root level="INFO">
+        <springProfile name="local">
+            <appender-ref ref="CONSOLE"/>
+        </springProfile>
+        <springProfile name="dev">
+            <appender-ref ref="SIZE_AND_TIME_BASED_FILE"/>
+            <appender-ref ref="TELEGRAM_DEV"/>
+        </springProfile>
+        <springProfile name="live">
+            <appender-ref ref="SIZE_AND_TIME_BASED_FILE"/>
+            <appender-ref ref="TELEGRAM_LIVE"/>
+        </springProfile>
+    </root>
+
+</configuration>

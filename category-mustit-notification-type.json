@@ -1,0 +1,834 @@
+[
+  {
+    "category_name": "WOMEN",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "의류",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "탑",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스웨트셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "후드",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "티셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "폴로",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "뷔스티에",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스웨터",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "가디건",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "라운드넥",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "브이넥",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "집업",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "터틀넥",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "베스트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "블라우스/셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "블라우스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "민소매",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "원피스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "롱원피스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "미디원피스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "숏원피스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "투피스/세트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "점프수트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "데님",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스웨트팬츠/조거팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "클래식팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "카고팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "크롭팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "오버롤",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "가죽",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "레깅스",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "숏팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스커트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "롱스커트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "미디스커트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "숏스커트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "코트/자켓",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "다운/패딩",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "코트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "봄버",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "가죽/무스탕/퍼",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "자켓",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "트렌치코트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "언더웨어/라운지웨어",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "언더웨어",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "슬립웨어",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "라운지웨어",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스포츠웨어/아웃도어",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "아우터",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "수영복",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스키/보드복",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "기타",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "가방",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "크로스백",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "클러치/파우치",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "클러치",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "파우치",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "토트백",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "숄더백",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "백팩",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "더플백",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "러기지백",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "기타",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "노트북/태블릿",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "스트랩",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "슈즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "스니커즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "로우탑스니커즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "하이탑스니커즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "슬립온",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "로퍼",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "드라이빙",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "보트",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "에스파드류",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "태슬/프린지",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "모카신",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "부츠/워커",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "부티",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "앵클부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "워커",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "롱부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "니하이",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "싸이하이",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "첼시부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "미들부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "바이커/컴뱃부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "집업/버클부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "레인부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "윈터부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "플랫",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "발레리나",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "메리제인",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "포인트토",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "드레스슈즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "옥스퍼드",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "더비",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "몽크스트랩",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "윙팁",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "샌들/슬리퍼",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "샌들",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "슬리퍼",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "플립플랍",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "액세서리",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "반지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "장지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "중지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "카드지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "명함지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "동전지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "키지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "여권지갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "시계",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "메탈/세라믹",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "가죽",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "러버",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "패브릭/기타",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "벨트",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "목도리/스카프",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "목도리",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "스카프",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "모자",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "캡",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "스냅백",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "비니",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "버켓햇",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "페도라",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "베레모/헌팅캡",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "트래퍼",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "보터모자",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "기타",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "장갑",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "니트",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "가죽",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "무스탕",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "다운",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "주얼리",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "목걸이/팬던트",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "팔찌",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "반지",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "귀걸이/피어싱",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "브로치",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "세트",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "기타",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "키링",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "아이웨어",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "안경",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "선글라스",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "고글",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "헤어액세서리",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "헤어밴드",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "헤드밴드",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "헤어핀",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "손수건",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "양말/스타킹",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "양말",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "스타킹",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "MEN",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "헨리",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "아노락",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "긴팔",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "반팔",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "수트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "세트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "브리프케이스",
+    "notification_type": "BAG"
+  },
+  {
+    "category_name": "페니",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "머니클립",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "벨트/서스펜더",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "서스펜더",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "커프링크스/넥타이핀/세트",
+    "notification_type": "ACCESSORY"
+  },
+  {
+    "category_name": "넥타이",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "보타이",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "KIDS",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "긴팔티셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "반팔티셔츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "스웨트팬츠",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "바디수트",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "다운",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "내의",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "팬티",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "비키니",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "래쉬가드",
+    "notification_type": "CLOTHING"
+  },
+  {
+    "category_name": "부츠",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "구두/플랫",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "젤리슈즈",
+    "notification_type": "SHOE"
+  },
+  {
+    "category_name": "가방",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "시계",
+    "notification_type": "FASHION_GOODS"
+  },
+  {
+    "category_name": "LIFE",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "뷰티",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "스킨케어/선케어",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "스킨/토너",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "로션",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "에센스",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "크림/오일",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "선케어",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "클렌저",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "헤어/바디케어",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "바디케어",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "헤어케어",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "메이크업",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "향수",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "미용기기/용품",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "미용용품",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "면도기",
+    "notification_type": "BEAUTY"
+  },
+  {
+    "category_name": "SHARE",
+    "notification_type": "CLOTHING"
+  }
+]

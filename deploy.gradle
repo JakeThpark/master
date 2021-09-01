@@ -1,0 +1,35 @@
+remotes {
+    developmentServer {
+        role 'dev-servers'
+        host = '172.16.15.103'
+        port = 22
+        user = 'root'
+        knownHosts = allowAnyHosts
+        identity = file('./dev-rsa')
+    }
+}
+
+task deployJarToDev(dependsOn: assemble) {
+    doLast {
+        deployJarToServer(remotes.role('dev-servers'))
+    }
+
+}
+
+void deployJarToServer(def server) {
+    ssh.run {
+        session(server) {
+            println "# Server Connnected - " + server
+            execute("id")
+            def projectPath = '/var/www/application/wanpan'
+            println jar.destinationDirectory.get()
+            println jar.archiveFileName.get()
+            println jar.destinationDirectory.get().toString() + "\\" + jar.archiveFileName.get()
+
+            put from: jar.archivePath.absolutePath, into: "$projectPath/jars/"+jar.archiveFileName.get()
+            execute "unlink $projectPath/current.jar"
+            execute "ln -s $projectPath/jars/"+jar.archiveFileName.get()+" $projectPath/current.jar"
+            execute "cd $projectPath/; sh run.sh restart"
+        }
+    }
+}
